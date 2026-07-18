@@ -1,7 +1,7 @@
 {
-  "versionCode": 5,
-  "versionName": "1.2.2",
-  "apkUrl": "https://raw.githubusercontent.com/70-z/70converter-updates/main/70Converter-1.2.2.apk",
-  "sha256": "8541bb28798549d599c762458915249cad1d14e8d518c50cd392b8c9478a66dc",
-  "notes": "修复刘海安全区和任务删除后的预览闪空，并内置 GitHub 更新地址。"
+  "versionCode": 6,
+  "versionName": "1.2.3",
+  "apkUrl": "https://raw.githubusercontent.com/70-z/70converter-updates/main/70Converter-1.2.3.apk",
+  "sha256": "b9accde34bbb2332cbf46ffa443485493d82f54da56fab94d40e5f657c37fbca",
+  "notes": "缩紧刘海安全区留白，让首屏内容更靠上。"
 }
