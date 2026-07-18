@@ -1,7 +1,7 @@
 {
-  "versionCode": 6,
-  "versionName": "1.2.3",
-  "apkUrl": "https://raw.githubusercontent.com/70-z/70converter-updates/main/70Converter-1.2.3.apk",
-  "sha256": "b9accde34bbb2332cbf46ffa443485493d82f54da56fab94d40e5f657c37fbca",
-  "notes": "缩紧刘海安全区留白，让首屏内容更靠上。"
+  "versionCode": 7,
+  "versionName": "1.3.0",
+  "apkUrl": "https://raw.githubusercontent.com/70-z/70converter-updates/main/70Converter-1.3.0.apk",
+  "sha256": "072b746ef596ae0ec4e40dc0adfbc6f5ea615e2f36a2370bff943150a9a49da8",
+  "notes": "单列纵向滑动预览（约 7 张可见）、JPG 质量滑杆和手动输入、更新红点提示，并进一步上移首屏内容。"
 }
