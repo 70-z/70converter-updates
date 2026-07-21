@@ -1,7 +1,7 @@
 {
-  "versionCode": 11,
-  "versionName": "2.0.1",
-  "apkUrl": "https://raw.githubusercontent.com/70-z/70converter-updates/main/70Converter-2.0.1.apk",
-  "sha256": "696505f619da6ec290116fa2b1f98953467f4d7d7b213cfb239282d4def4b2e8",
-  "notes": "图片转换器改为独立页面标题并增加返回按钮，移除模块内更新入口；选择替换原图时仅更改文件格式，并继承原图拍摄、加入相册和修改日期；官方宣传网站现已可公开访问。"
+  "versionCode": 12,
+  "versionName": "2.0.2",
+  "apkUrl": "https://raw.githubusercontent.com/70-z/70converter-updates/main/70Converter-2.0.2.apk",
+  "sha256": "e31349ab1f93b8444467a55717d861bcd27e0b90cedd6b8d24418422dce7e10a",
+  "notes": "图片转换器改为独立页面标题并增加返回按钮，移除模块内更新入口；选择替换原图时仅更改文件格式，并继承原图拍摄、加入相册和修改日期；优化部分 Android 图片提供方的日期兼容性；官方宣传网站现已可公开访问。"
 }
