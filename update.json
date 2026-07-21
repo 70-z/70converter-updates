@@ -1,7 +1,7 @@
 {
-  "versionCode": 10,
-  "versionName": "2.0.0",
-  "apkUrl": "https://raw.githubusercontent.com/70-z/70converter-updates/main/70Converter-2.0.0.apk",
-  "sha256": "6321a17c1ad47e1941347b558047d7a35c042e2484cb1ca11b80f045f0d95378",
-  "notes": "新增图片/音频双模块；支持音频扫描、搜索、筛选、播放，并可转换为 MP3 或 WAV；新增官方网页和 3 文件在线体验。"
+  "versionCode": 11,
+  "versionName": "2.0.1",
+  "apkUrl": "https://raw.githubusercontent.com/70-z/70converter-updates/main/70Converter-2.0.1.apk",
+  "sha256": "696505f619da6ec290116fa2b1f98953467f4d7d7b213cfb239282d4def4b2e8",
+  "notes": "图片转换器改为独立页面标题并增加返回按钮，移除模块内更新入口；选择替换原图时仅更改文件格式，并继承原图拍摄、加入相册和修改日期；官方宣传网站现已可公开访问。"
 }

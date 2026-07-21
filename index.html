@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="70转换器：在手机或浏览器本地转换图片与音频，文件不上传。">
+  <title>70转换器 | 图片与音频本地转换</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="sitebar">
+    <a class="brand" href="#top" aria-label="70转换器首页">
+      <span class="brand-mark">70</span>
+      <span>70转换器</span>
+    </a>
+    <nav class="nav-links" aria-label="页面导航">
+      <a href="#features">功能</a>
+      <a href="#experience">在线体验</a>
+      <a class="nav-download" href="70Converter-2.0.1.apk">下载 Android APK</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-wrap">
+      <div class="hero-copy">
+        <p class="kicker">LOCAL MEDIA TOOLKIT · v2.0.1</p>
+        <h1>70转换器</h1>
+        <p class="hero-lead">把手机里难处理的图片和音频，变成随时可用的格式。</p>
+        <p class="hero-note">扫描、筛选、预览、转换都在本地完成。文件不离开你的设备。</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="70Converter-2.0.1.apk">下载 Android App</a>
+          <a class="button button-quiet" href="#experience">体验网页版</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="70转换器应用图标和媒体格式标记">
+        <div class="format-orbit orbit-a">JPG</div>
+        <div class="format-orbit orbit-b">FLAC</div>
+        <div class="format-orbit orbit-c">PNG</div>
+        <div class="format-orbit orbit-d">WAV</div>
+        <div class="app-slab">
+          <img src="app-icon.png" alt="70转换器应用图标">
+          <strong>70</strong>
+          <span>转换器</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section-wrap feature-section">
+      <div class="section-heading">
+        <p class="kicker">ONE WORKFLOW, TWO MEDIA TYPES</p>
+        <h2>从识别到导出，步骤清楚而且可控。</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card image-feature">
+          <span class="feature-index">01</span>
+          <h3>图片转换</h3>
+          <p>识别 WEBP、HEIC、AVIF、TIFF 等格式，选择输出 JPG 或 PNG，保留原始尺寸。</p>
+          <div class="format-line"><span>JPG</span><span>PNG</span><span>HEIC</span><span>WEBP</span></div>
+        </article>
+        <article class="feature-card audio-feature">
+          <span class="feature-index">02</span>
+          <h3>音频转换</h3>
+          <p>扫描 FLAC、WAV、AAC、M4A、OGG、OPUS 等音频，播放后批量导出 MP3 或 WAV。</p>
+          <div class="format-line"><span>FLAC</span><span>MP3</span><span>WAV</span><span>OGG</span></div>
+        </article>
+        <article class="feature-card privacy-feature">
+          <span class="feature-index">03</span>
+          <h3>本地处理</h3>
+          <p>Android 版本使用本机 MediaStore 和离线编码引擎，不上传照片或音频，也不需要账号。</p>
+          <div class="privacy-line"><span class="privacy-dot"></span>文件留在你的设备</div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section-wrap experience-section">
+      <div class="section-heading experience-heading">
+        <div>
+          <p class="kicker">BROWSER DEMO · MAX 3 FILES</p>
+          <h2>网页版体验</h2>
+        </div>
+        <p class="section-caption">图片可直接在浏览器转换；音频支持本地播放与 WAV 导出。完整 MP3 编码请使用 Android App。</p>
+      </div>
+      <div class="demo-shell">
+        <div class="demo-toolbar">
+          <div class="segmented" role="tablist" aria-label="体验模式">
+            <button class="segment is-active" data-mode="image" role="tab" aria-selected="true">图片</button>
+            <button class="segment" data-mode="audio" role="tab" aria-selected="false">音频</button>
+          </div>
+          <span class="local-badge"><span></span>仅在本机处理</span>
+        </div>
+        <div class="demo-controls">
+          <label class="file-picker button button-primary" for="media-input">选择文件</label>
+          <input id="media-input" type="file" multiple accept="image/*">
+          <span id="file-count" class="file-count">最多选择 3 个文件</span>
+          <select id="output-format" aria-label="输出格式">
+            <option value="jpg">JPG</option>
+            <option value="png">PNG</option>
+          </select>
+          <label id="quality-wrap" class="quality-control">质量 <input id="quality" type="number" min="1" max="100" value="100">%</label>
+          <button id="convert-button" class="button button-dark" type="button" disabled>开始转换</button>
+        </div>
+        <div id="demo-list" class="demo-list" aria-live="polite">
+          <div class="demo-empty"><strong>还没有选择文件</strong><span>网页体验每次最多处理 3 个文件。</span></div>
+        </div>
+        <p id="demo-message" class="demo-message" role="status"></p>
+      </div>
+    </section>
+
+    <section class="download-strip section-wrap">
+      <div>
+        <p class="kicker">ANDROID APP</p>
+        <h2>需要完整批处理？下载 70转换器。</h2>
+      </div>
+      <a class="button button-primary" href="70Converter-2.0.1.apk">下载 v2.0.1</a>
+    </section>
+  </main>
+
+  <footer class="footer section-wrap">
+    <span>70转换器 · 本地优先的媒体工具</span>
+    <a href="https://github.com/70-z/70converter-updates">更新仓库</a>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
